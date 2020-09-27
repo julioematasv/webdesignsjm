@@ -1,0 +1,14 @@
+
+
+
+@mixin font-titulos {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@mixin  font-general {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
