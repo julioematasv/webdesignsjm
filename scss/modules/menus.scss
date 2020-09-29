@@ -1,12 +1,13 @@
 
-//Estilos para navegación
+/* Estilos para navegación */
 .nav-main {
-  background: $azulLogo;
+  background: url("../img/bg-line.jpg");
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
   padding: 20px 0;
+  max-width: 1600px;
 }
 
 ul li a {
@@ -17,15 +18,26 @@ ul li a {
   width: 50px;
 }
 
-.nav-main ul {
+.nav-main {
+  img {
+    margin-left: 20px;
+  }
+  ul {
   display: flex;
 
   li {
     padding: 10px;
+    & a:hover {
+      color: $verdeLogo;
+    }
   }
 }
-
+}
 ul.nav-menu {
   flex: 1;
   margin-left: 20px;
+}
+
+.nav-menu-right {
+  margin-right: 30px;
 }
