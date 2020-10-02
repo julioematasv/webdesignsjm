@@ -114,6 +114,18 @@ h1 {
   text-align: center;
 }
 
+.btn-primario {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #1779ba;
+  color: #fafafa;
+  margin: 10px 0;
+}
+
 /* Estilos para navegación */
 .nav-main {
   display: flex;

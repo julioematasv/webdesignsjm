@@ -12,3 +12,15 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
+
+@mixin  boton-primario {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: $primary;
+  color: $txtBlanco;
+  margin: 10px 0;
+}
